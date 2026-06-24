@@ -1,12 +1,10 @@
-public class IT26102191Lab2Q2
-{
-    public static void main(String[] args)
-    {
+public class IT26102064Lab2Q2 {
+    public static void main(String[] args) {
+
         double length = 10;
-
+        double pi = 3.14;
         double perimeter = 4 * length;
-
-        double radius = perimeter / (2 * 3.14);
+        double radius = perimeter / (2 * pi);
 
         System.out.println("Radius of the circular fence: " + radius);
     }
